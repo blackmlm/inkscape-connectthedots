@@ -1,9 +1,9 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
-	<n>Connect the Dots</n>
-	<id>github.blackmlm.inkscape-connectthedots</id>
+	<n>Dot 2 Dot</n>
+	<id>github.blackmlm.inkscape-dot2dot</id>
 	<dependency type="executable" location="inx">connectthedots.py</dependency>
-	<label>Generates a "Connect the Dots" picture from the selected paths.</label>
+	<label>Generates a "Dot 2 Dot" picture from the selected paths.</label>
 	<!-- Copyright (C) 2013 Manuel Grauwiler (HereticPilgrim) -->
 	<!-- Copyright (C) 2025 Jose Garza -->
 	<param name="radius" type="float" gui-text="Vertex Radius">5</param>
