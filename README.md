@@ -1,8 +1,8 @@
 # inkscape-dot2dot
 
-An extension for Inkscape to create a "Connect the Dots" picture.
+An extension for Inkscape to create a "Dot 2 Dot" picture.
 
-## What is Connect the Dots?
+## What is Dot 2 Dot?
 
 An image where you have numbered dots which you need to connect to reveal the hidden image. It is a fun activity for kids and grown-ups as well.
 
@@ -15,7 +15,7 @@ Note: Currently, Connect the Dots extension places not all the numbers optimally
 
 ## Installation
 
-1. Copy _connectthedots.inx_ and _connectthedots.py_ into your share/inkscape/extension folder (may require admin rights.)
+1. Copy _connectthedots.inx_ and _connectthedots.py_ into your %appdata%\inkscape\extensions\ folder 
 2. (re)-start Inkscape.
 3. You will find a new entry in Extensions > Generate from Path > Create Connect the Dots.
 
