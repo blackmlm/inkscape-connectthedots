@@ -15,6 +15,8 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+Fixed to work on Inkscape 1.4 and later by Jose Garza
 '''
 
 from random import randint, choice
