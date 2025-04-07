@@ -1,4 +1,4 @@
-# inkscape-connectthedots
+# inkscape-dot2dot
 
 An extension for Inkscape to create a "Connect the Dots" picture.
 
