@@ -2,6 +2,7 @@
 '''
 Connect the Dots extension for Inkscape Vector Graphics Editor
 Copyright (C) 2013  Manuel Grauwiler (HereticPilgrim)
+Copyright (C) 2025  Jose Garza
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
