@@ -1,20 +1,20 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
-	<_name>Connect the Dots</_name>
+	<name>Connect the Dots</name>
 	<id>github.blackmlm.inkscape-connectthedots</id>
-	<dependency type="executable" location="extensions">connectthedots.py</dependency>
-	<dependency type="executable" location="extensions">inkex.py</dependency>
-	<_param name="title" type="description">Generates a "Connect the Dots" picture from the selected paths.</_param>
-	<param name="radius" type="string" _gui-text="Vertex Radius">5</param>
-	<param name="fontsize" type="string" _gui-text="Font Size">15</param>
-	<param name="hidepath" type="boolean" _gui-text="Hide path after completion">true</param>
+	<dependency type="executable" location="inx">connectthedots.py</dependency>
+	<label>Generates a "Connect the Dots" picture from the selected paths.</label>
+	<param name="radius" type="float" gui-text="Vertex Radius">5</param>
+	<param name="fontsize" type="float" gui-text="Font Size">15</param>
+	<param name="hidepath" type="bool" gui-text="Hide path after completion">true</param>
 	<effect>
 		<object-type>all</object-type>
 		<effects-menu>
-			<submenu _name="Generate from Path"/>
+			<submenu name="Generate from Path"/>
 		</effects-menu>
 	</effect>
 	<script>
-		<command reldir="extensions" interpreter="python">connectthedots.py</command>
+		<command location="inx" interpreter="python">connectthedots.py</command>
 	</script>
-</inkscape-extension>
+</inkscape-extension> 
+
