@@ -1,6 +1,6 @@
-<?xml version="1.1" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
-	<n>Dot 2 Dot</n>
+	<name>Dot 2 Dot</name>
 	<id>github.blackmlm.inkscape-dot2dot</id>
 	<dependency type="executable" location="inx">connectthedots.py</dependency>
 	<label>Generates a "Dot 2 Dot" picture from the selected paths.</label>
